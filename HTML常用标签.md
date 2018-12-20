@@ -1,26 +1,21 @@
-#HTML 常用标签
+# HTML 常用标签
 
-###根元素
+### 根元素
 元素 | 描述
 -------|-------
 <html> | HTML <html> 元素 表示一个HTML文档的根（顶级元素），所以它也被称为根元素。所有其他元素必须是此元素的后代。
 
-####HTML
-#####属性
+#### HTML
+##### 属性
 元素包含 [全局属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes)。
 
-#####实例
-> <!DOCTYPE html>
-  <html lang="zh">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<head>...</head>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<body>...</body>
-</html>
 
-#####注意事项
+
+##### 注意事项
 * 尽管在HTML里<html>元素不是必需的，可以是隐含的，但是在XHTML里必须明确给出它的开标签和闭标签。
 * 严格意义上，标签是指开始标签（例如 <p> 标签）或结束标签（例如 </p> 标签）；元素（例如 p 元素或者称为<p>元素）则包括开始标签（自然也包括标签中定义的属性）、结束标签以及中间的内容（Content）。
 
-###文档元数据
+### 文档元数据
 元数据（Metadata）含有页面的相关信息，包括样式、脚本及数据，能帮助一些软件 (如搜索引擎，浏览器等等）更好地运用和渲染页面。对于样式和脚本的元数据，可以直接在网页里定义，也可以链接到包含相关信息的外部文件
 
 元素 | 描述
@@ -30,9 +25,8 @@
 <style> | **HTML的`<style>`元素**包含文档的样式信息或者文档的部分内容。默认情况下，该标签的样式信息通常是[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)的格式。
 <title> | **HTML`<title>` 元素** 定义文档的标题，显示在浏览器的标题栏或标签页上。它只可以包含文本，若是包含有标签，则包含的任何标签都不会被解释。
 
-#####link
-#####例子
-> <link href="style.css" rel="stylesheet">
+##### link
+
 
 
 
