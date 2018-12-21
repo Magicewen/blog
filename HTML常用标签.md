@@ -108,8 +108,8 @@
     USA
   </address>
 ```
-上面的HTML的输出如下：<br
->
+上面的HTML的输出如下：<br>
+
 ![](https://developer.mozilla.org/@api/deki/files/238/=HTML-address.png)
 
 虽然`<address>`元素使用`<i>`或者`<em>`元素的默认样式渲染文本，但是当处理联系信息时使用`<address>`元素更合适，因为它表达了额外的语义信息。
